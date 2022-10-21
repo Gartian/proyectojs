@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__img {
+    width: 350px;
+}
+
+
+.hero__img {
+    width: 100%;
+}
+
+
+
+.img__redes {
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    width: 40px;
+}
+
+
+.img__redes:hover {
+    border-radius: 30px;
+    background-color: #fd152F;
+}
+
+
+
+
+/** MENÚ **/
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.btn__menu {
+    width: 150px;
+    transition: all .2s ease-in;
+}
+
+
+.btn__menu:hover {
+    background-color: #fd152f;
+    border-radius: 90px;
+}
+
+
+
+
+/** CARTITAS **/
+
+.tarjetitas {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.tarjetita__imagen {
+    margin-bottom: 1rem;
+}
+
+
+.titulo__tarjetita {
+    margin-bottom: .5rem;
+    color: #fd152f;
+}
+
+
+.tarjetita__boton {
+    color: #fd152F;
+    margin-bottom: 1rem;
+}
+
+
+
+
+/** FOOTER **/
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    background-color: #fd152f;
+    text-align: center;
+}
